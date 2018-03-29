@@ -4,10 +4,8 @@ def my_collect(collection)
   while i < collection.length
     collection << yield(collection[i])
     i += 1
-    end 
-    collection
-  else  
-  end  
+  end 
+  collection
 end
   
 
