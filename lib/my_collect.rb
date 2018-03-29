@@ -8,5 +8,5 @@ def my_collect(collection)
   collection
 end
   
-
+#if block_given?
 
