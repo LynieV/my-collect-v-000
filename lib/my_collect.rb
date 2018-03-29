@@ -5,7 +5,7 @@ def my_collect(collection)
     collection_new << yield(collection[i])
     i += 1
   end 
-  collection
+  collection_new
 end
   
 #if block_given?
